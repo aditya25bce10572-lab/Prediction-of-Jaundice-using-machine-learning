@@ -17,8 +17,6 @@ This Python program predicts whether a person has jaundice based on key medical 
 
 Install dependencies with:pip install scikit-learn numpy pandas
 
-Specify your license here if any (e.g., MIT License).
-
 ## How to Run
 1. Download the program file (e.g., `projectman.py`).  
 2. Open a terminal or command prompt.  
@@ -41,9 +39,15 @@ Specify your license here if any (e.g., MIT License).
 - List of common jaundice symptoms found.  
 - Advice to consult a doctor for confirmation.
 
+## Screenshots
+<img width="1093" height="969" alt="Screenshot 2025-11-24 214635" src="https://github.com/user-attachments/assets/60fcd900-9408-45f8-a4f7-062dfb0d2ab0" />
+<img width="1052" height="966" alt="Screenshot 2025-11-24 214727" src="https://github.com/user-attachments/assets/430544cf-9d78-47b5-9974-d7781b8ed785" />
+<img width="456" height="526" alt="Screenshot 2025-11-24 214848" src="https://github.com/user-attachments/assets/10335cdd-e3bf-4837-8009-b99b84f37f6a" />
+
 ## How It Works
 The program contains a small synthetic dataset representing jaundice and non-jaundice patients with binary symptom indicators and age.  
 It trains a Random Forest classifier on this dataset.  
 When the user enters new patient data, the model predicts the presence or absence of jaundice and provides the probability associated.  
 The program then prints the diagnosis along with symptom highlights.
+
 
